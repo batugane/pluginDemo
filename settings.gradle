@@ -1,0 +1,5 @@
+rootProject.name = 'pluginDemo'
+
+include 'plugins:plugin2'
+findProject(':plugins:plugin2')?.name = 'plugin2'
+
